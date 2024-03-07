@@ -1,0 +1,10 @@
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\bin\Debug\N09310026_GUI_Script.exe.config
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\bin\Debug\N09310026_GUI_Script.exe
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\bin\Debug\N09310026_GUI_Script.pdb
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.csproj.AssemblyReference.cache
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.Form1.resources
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.Properties.Resources.resources
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.csproj.GenerateResource.cache
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.csproj.CoreCompileInputs.cache
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.exe
+C:\Users\MEGAS\Desktop\新增資料夾\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.pdb
