@@ -1,6 +1,6 @@
 ﻿namespace N09310026_GUI_Script
 {
-    partial class Form1
+    partial class FormSurvive
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -34,6 +34,9 @@
             this.btnRabbit = new System.Windows.Forms.Button();
             this.BtnCrocodile = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.TouchMe = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.TchHer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -109,11 +112,45 @@
             this.label4.Text = "多遊四甲  N09310026 魏暐哲";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // TouchMe
+            // 
+            this.TouchMe.AutoSize = true;
+            this.TouchMe.Location = new System.Drawing.Point(61, 83);
+            this.TouchMe.Name = "TouchMe";
+            this.TouchMe.Size = new System.Drawing.Size(70, 12);
+            this.TouchMe.TabIndex = 7;
+            this.TouchMe.Text = "你想按我嗎?";
+            this.TouchMe.Click += new System.EventHandler(this.TouchMe_Click);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(579, 124);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(48, 16);
+            this.checkBox1.TabIndex = 8;
+            this.checkBox1.Text = "允許";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // TchHer
+            // 
+            this.TchHer.Location = new System.Drawing.Point(579, 164);
+            this.TchHer.Name = "TchHer";
+            this.TchHer.Size = new System.Drawing.Size(75, 23);
+            this.TchHer.TabIndex = 9;
+            this.TchHer.Text = "碰她";
+            this.TchHer.UseVisualStyleBackColor = true;
+            this.TchHer.Click += new System.EventHandler(this.TchHer_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TchHer);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.TouchMe);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.BtnCrocodile);
             this.Controls.Add(this.btnRabbit);
@@ -121,7 +158,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "你能不能活下來?";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,6 +172,9 @@
         private System.Windows.Forms.Button btnRabbit;
         private System.Windows.Forms.Button BtnCrocodile;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label TouchMe;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button TchHer;
     }
 }
 
