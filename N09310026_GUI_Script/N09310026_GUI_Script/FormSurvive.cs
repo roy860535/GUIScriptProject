@@ -108,23 +108,31 @@ namespace N09310026_GUI_Script
 
         }
         int SheisOk=0;
+        bool Fromisopen=false;
         private void TchHer_Click(object sender, EventArgs e)
         {
             if (checkBox1.Checked == true)
             {
                 TouchMe.Text ="官人你好壞";
                 SheisOk++;
-                if (SheisOk >= 2)
+                if (SheisOk >= 2&& Fromisopen==false)
                 {
-                    Form formBTN = new FormSheisOk();
+                    FormSheisOk formBTN = new FormSheisOk();
+                    formBTN.FormClosed += FormSheisOk_Closed;
                     formBTN.Show();
+                    Fromisopen = true;
                 }
+
             }
             else if(checkBox1.Checked == false)
             {
                 TouchMe.Text ="你不能碰我你知道嗎";
             }
 
+        }
+        private void FormSheisOk_Closed(object sender, System.EventArgs e)
+        {
+            Fromisopen = false;
         }
     }
 }
