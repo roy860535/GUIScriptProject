@@ -32,8 +32,8 @@ namespace N09310026_GUI_Script
         int LableText = 0;
         private void TextChangeButton_Click(object sender, EventArgs e)
         {
-            ChangeText.Text= "+" + LableText;
             LableText++;
+            ChangeText.Text= "+" + LableText;
         }
 
         private void ChangeText_Click(object sender, EventArgs e)
@@ -49,6 +49,21 @@ namespace N09310026_GUI_Script
                 LableText = 0;
                 ChangeText.Text ="+" + LableText;
             }
+        }
+
+        private void MinusButton_Click(object sender, EventArgs e)
+        {
+            LableText--;
+            if (LableText >= 0)
+            {
+                ChangeText.Text = "+" + LableText;
+            }
+            else
+            {
+                ChangeText.Text = "-" + LableText;
+            }
+            
+            
         }
     }
 }
