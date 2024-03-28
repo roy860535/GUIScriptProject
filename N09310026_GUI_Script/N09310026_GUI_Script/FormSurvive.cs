@@ -108,19 +108,19 @@ namespace N09310026_GUI_Script
 
         }
         int SheisOk=0;
-        bool Fromisopen=false;
+        bool SheisOKFromisopen=false;
         private void TchHer_Click(object sender, EventArgs e)
         {
             if (checkBox1.Checked == true)
             {
                 TouchMe.Text ="官人你好壞";
                 SheisOk++;
-                if (SheisOk >= 2&& Fromisopen==false)
+                if (SheisOk >= 2&& SheisOKFromisopen == false)
                 {
                     FormSheisOk formBTN = new FormSheisOk();
-                    formBTN.FormClosed += FormSheisOk_Closed;
+                    formBTN.FormClosed += Form_Closed;
                     formBTN.Show();
-                    Fromisopen = true;
+                    SheisOKFromisopen = true;
                 }
 
             }
@@ -130,9 +130,25 @@ namespace N09310026_GUI_Script
             }
 
         }
-        private void FormSheisOk_Closed(object sender, System.EventArgs e)
+
+        bool TextRobotisOpen=false;
+
+        private void TextRobot_Click(object sender, EventArgs e)
         {
-            Fromisopen = false;
+            if (!TextRobotisOpen)
+            {
+                FormTextRobot formBTN = new FormTextRobot();
+                formBTN.FormClosed += Form_Closed;
+                formBTN.Show();
+                TextRobotisOpen = true;
+            }
+        }
+
+        private void Form_Closed(object sender, System.EventArgs e)
+        {
+            SheisOKFromisopen = false;
+            TextRobotisOpen = false;
+
         }
     }
 }

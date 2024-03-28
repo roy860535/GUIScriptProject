@@ -37,6 +37,7 @@
             this.TouchMe = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.TchHer = new System.Windows.Forms.Button();
+            this.TextRobot = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -82,7 +83,7 @@
             this.btnRabbit.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnRabbit.Location = new System.Drawing.Point(61, 246);
             this.btnRabbit.Name = "btnRabbit";
-            this.btnRabbit.Size = new System.Drawing.Size(426, 90);
+            this.btnRabbit.Size = new System.Drawing.Size(113, 90);
             this.btnRabbit.TabIndex = 4;
             this.btnRabbit.Text = "兔子";
             this.btnRabbit.UseVisualStyleBackColor = true;
@@ -93,7 +94,7 @@
             this.BtnCrocodile.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.BtnCrocodile.Location = new System.Drawing.Point(61, 124);
             this.BtnCrocodile.Name = "BtnCrocodile";
-            this.BtnCrocodile.Size = new System.Drawing.Size(426, 87);
+            this.BtnCrocodile.Size = new System.Drawing.Size(113, 87);
             this.BtnCrocodile.TabIndex = 5;
             this.BtnCrocodile.Text = "鱷魚";
             this.BtnCrocodile.UseVisualStyleBackColor = true;
@@ -115,7 +116,7 @@
             // TouchMe
             // 
             this.TouchMe.AutoSize = true;
-            this.TouchMe.Location = new System.Drawing.Point(61, 83);
+            this.TouchMe.Location = new System.Drawing.Point(577, 93);
             this.TouchMe.Name = "TouchMe";
             this.TouchMe.Size = new System.Drawing.Size(70, 12);
             this.TouchMe.TabIndex = 7;
@@ -135,7 +136,7 @@
             // 
             // TchHer
             // 
-            this.TchHer.Location = new System.Drawing.Point(579, 164);
+            this.TchHer.Location = new System.Drawing.Point(579, 157);
             this.TchHer.Name = "TchHer";
             this.TchHer.Size = new System.Drawing.Size(75, 23);
             this.TchHer.TabIndex = 9;
@@ -143,11 +144,23 @@
             this.TchHer.UseVisualStyleBackColor = true;
             this.TchHer.Click += new System.EventHandler(this.TchHer_Click);
             // 
-            // Form1
+            // TextRobot
+            // 
+            this.TextRobot.Font = new System.Drawing.Font("新細明體", 12F);
+            this.TextRobot.Location = new System.Drawing.Point(195, 124);
+            this.TextRobot.Name = "TextRobot";
+            this.TextRobot.Size = new System.Drawing.Size(111, 87);
+            this.TextRobot.TabIndex = 10;
+            this.TextRobot.Text = "對話機器人";
+            this.TextRobot.UseVisualStyleBackColor = true;
+            this.TextRobot.Click += new System.EventHandler(this.TextRobot_Click);
+            // 
+            // FormSurvive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TextRobot);
             this.Controls.Add(this.TchHer);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.TouchMe);
@@ -157,7 +170,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "FormSurvive";
             this.Text = "你能不能活下來?";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -175,6 +188,7 @@
         private System.Windows.Forms.Label TouchMe;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button TchHer;
+        private System.Windows.Forms.Button TextRobot;
     }
 }
 
