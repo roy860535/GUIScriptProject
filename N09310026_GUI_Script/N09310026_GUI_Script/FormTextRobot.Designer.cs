@@ -31,6 +31,12 @@
             this.ChangeText = new System.Windows.Forms.Label();
             this.TextRobot = new System.Windows.Forms.TextBox();
             this.InputBtn = new System.Windows.Forms.Button();
+            this.number1 = new System.Windows.Forms.TextBox();
+            this.Symbol = new System.Windows.Forms.TextBox();
+            this.number2 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Answer = new System.Windows.Forms.Label();
+            this.RunBTN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ChangeText
@@ -63,11 +69,71 @@
             this.InputBtn.UseVisualStyleBackColor = true;
             this.InputBtn.Click += new System.EventHandler(this.InputBtn_Click);
             // 
+            // number1
+            // 
+            this.number1.Location = new System.Drawing.Point(43, 169);
+            this.number1.Name = "number1";
+            this.number1.Size = new System.Drawing.Size(100, 22);
+            this.number1.TabIndex = 3;
+            this.number1.TextChanged += new System.EventHandler(this.number1_TextChanged);
+            // 
+            // Symbol
+            // 
+            this.Symbol.Location = new System.Drawing.Point(149, 169);
+            this.Symbol.Name = "Symbol";
+            this.Symbol.Size = new System.Drawing.Size(100, 22);
+            this.Symbol.TabIndex = 4;
+            this.Symbol.TextChanged += new System.EventHandler(this.Symbol_TextChanged);
+            // 
+            // number2
+            // 
+            this.number2.Location = new System.Drawing.Point(255, 169);
+            this.number2.Name = "number2";
+            this.number2.Size = new System.Drawing.Size(100, 22);
+            this.number2.TabIndex = 5;
+            this.number2.TextChanged += new System.EventHandler(this.number2_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(375, 172);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(11, 12);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "=";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Answer
+            // 
+            this.Answer.AutoSize = true;
+            this.Answer.Location = new System.Drawing.Point(405, 172);
+            this.Answer.Name = "Answer";
+            this.Answer.Size = new System.Drawing.Size(15, 12);
+            this.Answer.TabIndex = 7;
+            this.Answer.Text = "??";
+            this.Answer.Click += new System.EventHandler(this.Answer_Click);
+            // 
+            // RunBTN
+            // 
+            this.RunBTN.Location = new System.Drawing.Point(43, 212);
+            this.RunBTN.Name = "RunBTN";
+            this.RunBTN.Size = new System.Drawing.Size(75, 23);
+            this.RunBTN.TabIndex = 8;
+            this.RunBTN.Text = "計算";
+            this.RunBTN.UseVisualStyleBackColor = true;
+            this.RunBTN.Click += new System.EventHandler(this.RunBTN_Click);
+            // 
             // FormTextRobot
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.RunBTN);
+            this.Controls.Add(this.Answer);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.number2);
+            this.Controls.Add(this.Symbol);
+            this.Controls.Add(this.number1);
             this.Controls.Add(this.InputBtn);
             this.Controls.Add(this.TextRobot);
             this.Controls.Add(this.ChangeText);
@@ -83,5 +149,11 @@
         private System.Windows.Forms.Label ChangeText;
         private System.Windows.Forms.TextBox TextRobot;
         private System.Windows.Forms.Button InputBtn;
+        private System.Windows.Forms.TextBox number1;
+        private System.Windows.Forms.TextBox Symbol;
+        private System.Windows.Forms.TextBox number2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Answer;
+        private System.Windows.Forms.Button RunBTN;
     }
 }
