@@ -38,6 +38,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.TchHer = new System.Windows.Forms.Button();
             this.TextRobot = new System.Windows.Forms.Button();
+            this.ChangeRobot = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -155,11 +156,23 @@
             this.TextRobot.UseVisualStyleBackColor = true;
             this.TextRobot.Click += new System.EventHandler(this.TextRobot_Click);
             // 
+            // ChangeRobot
+            // 
+            this.ChangeRobot.Font = new System.Drawing.Font("新細明體", 12F);
+            this.ChangeRobot.Location = new System.Drawing.Point(195, 246);
+            this.ChangeRobot.Name = "ChangeRobot";
+            this.ChangeRobot.Size = new System.Drawing.Size(111, 90);
+            this.ChangeRobot.TabIndex = 11;
+            this.ChangeRobot.Text = "華攝氏轉換機器人";
+            this.ChangeRobot.UseVisualStyleBackColor = true;
+            this.ChangeRobot.Click += new System.EventHandler(this.ChangeRobot_Click);
+            // 
             // FormSurvive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ChangeRobot);
             this.Controls.Add(this.TextRobot);
             this.Controls.Add(this.TchHer);
             this.Controls.Add(this.checkBox1);
@@ -189,6 +202,7 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button TchHer;
         private System.Windows.Forms.Button TextRobot;
+        private System.Windows.Forms.Button ChangeRobot;
     }
 }
 

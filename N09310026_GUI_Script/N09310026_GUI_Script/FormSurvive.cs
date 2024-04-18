@@ -148,7 +148,21 @@ namespace N09310026_GUI_Script
         {
             SheisOKFromisopen = false;
             TextRobotisOpen = false;
+            TestChangeRobot = false;
 
+        }
+
+        bool TestChangeRobot = false;
+
+        private void ChangeRobot_Click(object sender, EventArgs e)
+        {
+            if (!TestChangeRobot)
+            {
+                Form1Test formBTN = new Form1Test();
+                formBTN.FormClosed += Form_Closed;
+                formBTN.Show();
+                TestChangeRobot = true;
+            }
         }
     }
 }
