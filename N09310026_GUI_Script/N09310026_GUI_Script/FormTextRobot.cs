@@ -15,7 +15,13 @@ namespace N09310026_GUI_Script
         public FormTextRobot()
         {
             InitializeComponent();
+            comboBox1.Items.Add("+");
+            comboBox1.Items.Add("-");
+            comboBox1.Items.Add("*");
+            comboBox1.Items.Add("/");
+            comboBox1.SelectedIndex = 0;
         }
+
 
         private void TextRobot_TextChanged(object sender, EventArgs e)
         {
@@ -43,14 +49,7 @@ namespace N09310026_GUI_Script
 
         }
 
-        private void Symbol_TextChanged(object sender, EventArgs e)
-        {
-            string input = Symbol.Text;
-            if(input == "+")
-            {
 
-            }
-        }
 
         private void number1_TextChanged(object sender, EventArgs e)
         {
@@ -64,29 +63,42 @@ namespace N09310026_GUI_Script
 
         private void RunBTN_Click(object sender, EventArgs e)
         {
-            string input = Symbol.Text;
+            
 
-            int numbers1 = int.Parse(number1.Text);
-            int numbers2 = int.Parse(number2.Text);
-            if (input == "+")
+            double numbers1 = Convert.ToDouble(number1.Text);
+            double numbers2 = Convert.ToDouble(number2.Text);
+
+            switch(comboBox1.SelectedItem.ToString())
             {
-               Answer.Text =(numbers1+numbers2).ToString();
+                case "+":
+                    Answer.Text = (numbers1 + numbers2).ToString();
+                    break;
+                case "-":
+                    Answer.Text = (numbers1 - numbers2).ToString();
+                    break;
+                case "*":
+                    Answer.Text = (numbers1 * numbers2).ToString();
+                    break;
+                case "/":
+                    if (numbers2 != 0)
+                    {
+                        Answer.Text = (numbers1 / numbers2).ToString();
+                    }
+                    else
+                    {
+                        Answer.Text = "分母不能等於0";
+                    }
+                    break;
             }
-            if (input == "-")
-            {
-                Answer.Text = (numbers1 - numbers2).ToString();
-            }
-            if (input == "*")
-            {
-                Answer.Text = (numbers1 * numbers2).ToString();
-            }
-            if (input == "/")
-            {
-                Answer.Text = (numbers1 / numbers2).ToString();
-            }
+ 
         }
 
         private void Answer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

@@ -39,6 +39,7 @@
             this.TchHer = new System.Windows.Forms.Button();
             this.TextRobot = new System.Windows.Forms.Button();
             this.ChangeRobot = new System.Windows.Forms.Button();
+            this.Timer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -167,11 +168,23 @@
             this.ChangeRobot.UseVisualStyleBackColor = true;
             this.ChangeRobot.Click += new System.EventHandler(this.ChangeRobot_Click);
             // 
+            // Timer
+            // 
+            this.Timer.Font = new System.Drawing.Font("新細明體", 12F);
+            this.Timer.Location = new System.Drawing.Point(329, 124);
+            this.Timer.Name = "Timer";
+            this.Timer.Size = new System.Drawing.Size(111, 87);
+            this.Timer.TabIndex = 12;
+            this.Timer.Text = "The World";
+            this.Timer.UseVisualStyleBackColor = true;
+            this.Timer.Click += new System.EventHandler(this.Timer_Click);
+            // 
             // FormSurvive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Timer);
             this.Controls.Add(this.ChangeRobot);
             this.Controls.Add(this.TextRobot);
             this.Controls.Add(this.TchHer);
@@ -203,6 +216,7 @@
         private System.Windows.Forms.Button TchHer;
         private System.Windows.Forms.Button TextRobot;
         private System.Windows.Forms.Button ChangeRobot;
+        private System.Windows.Forms.Button Timer;
     }
 }
 

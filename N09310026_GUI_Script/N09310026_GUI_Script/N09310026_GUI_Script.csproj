@@ -70,6 +70,12 @@
     <Compile Include="FormTextRobot.Designer.cs">
       <DependentUpon>FormTextRobot.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTimerRobot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimerRobot.Designer.cs">
+      <DependentUpon>FormTimerRobot.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1Test.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTextRobot.resx">
       <DependentUpon>FormTextRobot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimerRobot.resx">
+      <DependentUpon>FormTimerRobot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

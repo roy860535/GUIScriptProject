@@ -149,7 +149,7 @@ namespace N09310026_GUI_Script
             SheisOKFromisopen = false;
             TextRobotisOpen = false;
             TestChangeRobot = false;
-
+            TimerRobot = false;
         }
 
         bool TestChangeRobot = false;
@@ -161,6 +161,18 @@ namespace N09310026_GUI_Script
                 Form1Test formBTN = new Form1Test();
                 formBTN.FormClosed += Form_Closed;
                 formBTN.Show();
+                TestChangeRobot = true;
+            }
+        }
+
+        bool TimerRobot = false;
+        private void Timer_Click(object sender, EventArgs e)
+        {
+            if (!TimerRobot)
+            {
+                FormTimerRobot formTimerRobot = new FormTimerRobot();
+                formTimerRobot.FormClosed += Form_Closed;
+                formTimerRobot.Show();
                 TestChangeRobot = true;
             }
         }
