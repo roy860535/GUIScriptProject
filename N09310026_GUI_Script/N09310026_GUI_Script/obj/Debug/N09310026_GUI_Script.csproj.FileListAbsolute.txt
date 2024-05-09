@@ -22,3 +22,4 @@ C:\Users\MEGAS\Desktop\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Scrip
 C:\Users\MEGAS\Desktop\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.FormTextRobot.resources
 C:\Users\MEGAS\Desktop\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.Form1Test.resources
 C:\Users\MEGAS\Desktop\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.FormTimerRobot.resources
+C:\Users\MEGAS\Desktop\GUIScriptProject\N09310026_GUI_Script\N09310026_GUI_Script\obj\Debug\N09310026_GUI_Script.FormFinalCodeGame.resources

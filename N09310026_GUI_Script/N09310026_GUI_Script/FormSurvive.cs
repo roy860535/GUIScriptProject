@@ -150,6 +150,7 @@ namespace N09310026_GUI_Script
             TextRobotisOpen = false;
             TestChangeRobot = false;
             TimerRobot = false;
+            FinalCodegame = false;
         }
 
         bool TestChangeRobot = false;
@@ -173,8 +174,20 @@ namespace N09310026_GUI_Script
                 FormTimerRobot formTimerRobot = new FormTimerRobot();
                 formTimerRobot.FormClosed += Form_Closed;
                 formTimerRobot.Show();
-                TestChangeRobot = true;
+                TimerRobot = true;
             }
         }
-    }
+
+        bool FinalCodegame = false;
+        private void FinalCodeGame_Click(object sender, EventArgs e)
+        {
+            if (!FinalCodegame)
+            {
+                FormFinalCodeGame formFinalCodeGame = new FormFinalCodeGame();
+                formFinalCodeGame.FormClosed += Form_Closed;
+                formFinalCodeGame.Show();
+                FinalCodegame = true;
+            }
+        }            
+}
 }

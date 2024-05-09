@@ -40,6 +40,7 @@
             this.TextRobot = new System.Windows.Forms.Button();
             this.ChangeRobot = new System.Windows.Forms.Button();
             this.Timer = new System.Windows.Forms.Button();
+            this.FinalCodeGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -179,11 +180,23 @@
             this.Timer.UseVisualStyleBackColor = true;
             this.Timer.Click += new System.EventHandler(this.Timer_Click);
             // 
+            // FinalCodeGame
+            // 
+            this.FinalCodeGame.Font = new System.Drawing.Font("新細明體", 12F);
+            this.FinalCodeGame.Location = new System.Drawing.Point(329, 246);
+            this.FinalCodeGame.Name = "FinalCodeGame";
+            this.FinalCodeGame.Size = new System.Drawing.Size(111, 87);
+            this.FinalCodeGame.TabIndex = 13;
+            this.FinalCodeGame.Text = "終極遊戲";
+            this.FinalCodeGame.UseVisualStyleBackColor = true;
+            this.FinalCodeGame.Click += new System.EventHandler(this.FinalCodeGame_Click);
+            // 
             // FormSurvive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.FinalCodeGame);
             this.Controls.Add(this.Timer);
             this.Controls.Add(this.ChangeRobot);
             this.Controls.Add(this.TextRobot);
@@ -217,6 +230,7 @@
         private System.Windows.Forms.Button TextRobot;
         private System.Windows.Forms.Button ChangeRobot;
         private System.Windows.Forms.Button Timer;
+        private System.Windows.Forms.Button FinalCodeGame;
     }
 }
 

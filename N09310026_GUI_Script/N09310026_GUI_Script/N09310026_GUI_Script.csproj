@@ -52,6 +52,12 @@
     <Compile Include="Form1Test.Designer.cs">
       <DependentUpon>Form1Test.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFinalCodeGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinalCodeGame.Designer.cs">
+      <DependentUpon>FormFinalCodeGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSurvive.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1Test.resx">
       <DependentUpon>Form1Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinalCodeGame.resx">
+      <DependentUpon>FormFinalCodeGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSurvive.resx">
       <DependentUpon>FormSurvive.cs</DependentUpon>

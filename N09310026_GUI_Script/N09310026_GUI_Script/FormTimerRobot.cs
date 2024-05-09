@@ -32,9 +32,21 @@ namespace N09310026_GUI_Script
 
         }
 
-        private void TheWorldBTN_Click(object sender, EventArgs e)
+        private void HelloWorldBTN_Click(object sender, EventArgs e)
         {
             timer1.Enabled = true;
+        }
+
+        private void TheWorldBTN_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+        }
+
+        private void EndWorldBTN_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+            second = 0;
+            timer1.Enabled = false;
         }
     }
 }
