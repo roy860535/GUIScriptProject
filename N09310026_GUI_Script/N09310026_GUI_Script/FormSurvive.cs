@@ -151,6 +151,7 @@ namespace N09310026_GUI_Script
             TestChangeRobot = false;
             TimerRobot = false;
             FinalCodegame = false;
+            LastMenuBtn = false;
         }
 
         bool TestChangeRobot = false;
@@ -188,6 +189,18 @@ namespace N09310026_GUI_Script
                 formFinalCodeGame.Show();
                 FinalCodegame = true;
             }
-        }            
-}
+        }
+
+        bool LastMenuBtn = false;
+        private void LastMenuBTN_Click(object sender, EventArgs e)
+        {
+            if (!LastMenuBtn)
+            {
+                FormLastMenu formLastMenu = new FormLastMenu();
+                formLastMenu.FormClosed += Form_Closed;
+                formLastMenu.Show();
+                LastMenuBtn = true;
+            }
+        }
+    }
 }

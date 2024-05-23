@@ -41,6 +41,7 @@
             this.ChangeRobot = new System.Windows.Forms.Button();
             this.Timer = new System.Windows.Forms.Button();
             this.FinalCodeGame = new System.Windows.Forms.Button();
+            this.LastMenuBTN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -191,11 +192,23 @@
             this.FinalCodeGame.UseVisualStyleBackColor = true;
             this.FinalCodeGame.Click += new System.EventHandler(this.FinalCodeGame_Click);
             // 
+            // LastMenuBTN
+            // 
+            this.LastMenuBTN.Font = new System.Drawing.Font("新細明體", 12F);
+            this.LastMenuBTN.Location = new System.Drawing.Point(465, 246);
+            this.LastMenuBTN.Name = "LastMenuBTN";
+            this.LastMenuBTN.Size = new System.Drawing.Size(111, 87);
+            this.LastMenuBTN.TabIndex = 14;
+            this.LastMenuBTN.Text = "期末點餐系統";
+            this.LastMenuBTN.UseVisualStyleBackColor = true;
+            this.LastMenuBTN.Click += new System.EventHandler(this.LastMenuBTN_Click);
+            // 
             // FormSurvive
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LastMenuBTN);
             this.Controls.Add(this.FinalCodeGame);
             this.Controls.Add(this.Timer);
             this.Controls.Add(this.ChangeRobot);
@@ -231,6 +244,7 @@
         private System.Windows.Forms.Button ChangeRobot;
         private System.Windows.Forms.Button Timer;
         private System.Windows.Forms.Button FinalCodeGame;
+        private System.Windows.Forms.Button LastMenuBTN;
     }
 }
 

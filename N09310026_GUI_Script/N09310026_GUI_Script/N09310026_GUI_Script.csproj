@@ -58,6 +58,12 @@
     <Compile Include="FormFinalCodeGame.Designer.cs">
       <DependentUpon>FormFinalCodeGame.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLastMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLastMenu.Designer.cs">
+      <DependentUpon>FormLastMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSurvive.cs">
       <SubType>Form</SubType>
     </Compile>
