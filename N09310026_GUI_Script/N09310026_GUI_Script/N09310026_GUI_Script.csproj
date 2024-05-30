@@ -96,6 +96,9 @@
     <EmbeddedResource Include="FormFinalCodeGame.resx">
       <DependentUpon>FormFinalCodeGame.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormLastMenu.resx">
+      <DependentUpon>FormLastMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSurvive.resx">
       <DependentUpon>FormSurvive.cs</DependentUpon>
     </EmbeddedResource>
