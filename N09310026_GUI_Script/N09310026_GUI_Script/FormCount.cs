@@ -11,15 +11,16 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 
 namespace N09310026_GUI_Script
 {
-    public partial class FormSheisOk : Form
+    public partial class FormCount : Form
     {
-        public FormSheisOk()
+        public FormCount()
         {
             InitializeComponent();
         }
 
         private void TrueLove_Click(object sender, EventArgs e)
         {
+            //a little cute joke
             if(TrueLove.Text == "曾經有一份真摯的感情擺在我面前")
             {
                 TrueLove.Text = "我信你個鬼，你這個人壞得很";
@@ -29,17 +30,12 @@ namespace N09310026_GUI_Script
                 TrueLove.Text = "曾經有一份真摯的感情擺在我面前";
             }
         }
+
         int LableText = 0;
-        private void TextChangeButton_Click(object sender, EventArgs e)
+        private void PlusButton_Click(object sender, EventArgs e)
         {
             LableText++;
-            ChangeText.Text= "+" + LableText;
-        }
-
-        private void ChangeText_Click(object sender, EventArgs e)
-        {
-            
-
+            NumberCheck(LableText);
         }
 
         private void ResetBox_CheckedChanged(object sender, EventArgs e)
@@ -54,16 +50,29 @@ namespace N09310026_GUI_Script
         private void MinusButton_Click(object sender, EventArgs e)
         {
             LableText--;
-            if (LableText >= 0)
+            NumberCheck(LableText);
+        }
+
+        private void NumberCheck(int lableText)
+        {
+            if (lableText >= 0)
             {
-                ChangeText.Text = "+" + LableText;
+                ChangeText.Text = "+" + lableText;
             }
             else
             {
-                ChangeText.Text = "-" + LableText;
+                ChangeText.Text = LableText.ToString();
             }
-            
-            
+        }
+
+        private void ChangeText_Click(object sender, EventArgs e)
+        {
+
+
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

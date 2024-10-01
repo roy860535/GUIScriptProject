@@ -16,7 +16,7 @@ namespace N09310026_GUI_Script
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormSurvive());
+            Application.Run(new FormFirstMenu());
         }
     }
 }

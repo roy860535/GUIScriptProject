@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1Test.cs">
+    <Compile Include="FormValueConverter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1Test.Designer.cs">
-      <DependentUpon>Form1Test.cs</DependentUpon>
+    <Compile Include="FormValueConverter.Designer.cs">
+      <DependentUpon>FormValueConverter.cs</DependentUpon>
     </Compile>
     <Compile Include="FormFinalCodeGame.cs">
       <SubType>Form</SubType>
@@ -58,29 +58,41 @@
     <Compile Include="FormFinalCodeGame.Designer.cs">
       <DependentUpon>FormFinalCodeGame.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLastMenu.cs">
+    <Compile Include="FormImageViewer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLastMenu.Designer.cs">
-      <DependentUpon>FormLastMenu.cs</DependentUpon>
+    <Compile Include="FormImageViewer.Designer.cs">
+      <DependentUpon>FormImageViewer.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSurvive.cs">
+    <Compile Include="FormOrderMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSurvive.Designer.cs">
-      <DependentUpon>FormSurvive.cs</DependentUpon>
+    <Compile Include="FormOrderMenu.Designer.cs">
+      <DependentUpon>FormOrderMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSheisOk.cs">
+    <Compile Include="FormFirstMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSheisOk.Designer.cs">
-      <DependentUpon>FormSheisOk.cs</DependentUpon>
+    <Compile Include="FormFirstMenu.Designer.cs">
+      <DependentUpon>FormFirstMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTextRobot.cs">
+    <Compile Include="FormCount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTextRobot.Designer.cs">
-      <DependentUpon>FormTextRobot.cs</DependentUpon>
+    <Compile Include="FormCount.Designer.cs">
+      <DependentUpon>FormCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalculatorRobot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalculatorRobot.Designer.cs">
+      <DependentUpon>FormCalculatorRobot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTextChangeTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTextChangeTool.Designer.cs">
+      <DependentUpon>FormTextChangeTool.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTimerRobot.cs">
       <SubType>Form</SubType>
@@ -88,25 +100,40 @@
     <Compile Include="FormTimerRobot.Designer.cs">
       <DependentUpon>FormTimerRobot.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTypingSpeedGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTypingSpeedGame.Designer.cs">
+      <DependentUpon>FormTypingSpeedGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1Test.resx">
-      <DependentUpon>Form1Test.cs</DependentUpon>
+    <EmbeddedResource Include="FormTypingSpeedGame.resx">
+      <DependentUpon>FormTypingSpeedGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormValueConverter.resx">
+      <DependentUpon>FormValueConverter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFinalCodeGame.resx">
       <DependentUpon>FormFinalCodeGame.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLastMenu.resx">
-      <DependentUpon>FormLastMenu.cs</DependentUpon>
+    <EmbeddedResource Include="FormImageViewer.resx">
+      <DependentUpon>FormImageViewer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSurvive.resx">
-      <DependentUpon>FormSurvive.cs</DependentUpon>
+    <EmbeddedResource Include="FormOrderMenu.resx">
+      <DependentUpon>FormOrderMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSheisOk.resx">
-      <DependentUpon>FormSheisOk.cs</DependentUpon>
+    <EmbeddedResource Include="FormFirstMenu.resx">
+      <DependentUpon>FormFirstMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTextRobot.resx">
-      <DependentUpon>FormTextRobot.cs</DependentUpon>
+    <EmbeddedResource Include="FormCount.resx">
+      <DependentUpon>FormCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalculatorRobot.resx">
+      <DependentUpon>FormCalculatorRobot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTextChangeTool.resx">
+      <DependentUpon>FormTextChangeTool.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTimerRobot.resx">
       <DependentUpon>FormTimerRobot.cs</DependentUpon>
