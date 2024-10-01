@@ -49,12 +49,12 @@
             this.label4.BackColor = System.Drawing.Color.Cornsilk;
             this.label4.Font = new System.Drawing.Font("新細明體", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label4.ForeColor = System.Drawing.Color.Crimson;
-            this.label4.Location = new System.Drawing.Point(703, 528);
+            this.label4.Location = new System.Drawing.Point(953, 516);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(319, 24);
+            this.label4.Size = new System.Drawing.Size(85, 24);
             this.label4.TabIndex = 6;
-            this.label4.Text = "多遊四甲  N09310026 魏暐哲";
+            this.label4.Text = "魏暐哲";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // TouchMe

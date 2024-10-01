@@ -82,7 +82,7 @@ namespace N09310026_GUI_Script
             this.SelectFolderBtn.Font = new System.Drawing.Font("新細明體", 15F);
             this.SelectFolderBtn.Location = new System.Drawing.Point(12, 77);
             this.SelectFolderBtn.Name = "SelectFolderBtn";
-            this.SelectFolderBtn.Size = new System.Drawing.Size(140, 58);
+            this.SelectFolderBtn.Size = new System.Drawing.Size(140, 73);
             this.SelectFolderBtn.TabIndex = 10;
             this.SelectFolderBtn.Text = "選擇資料夾";
             this.SelectFolderBtn.UseVisualStyleBackColor = true;
